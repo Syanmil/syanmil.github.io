@@ -1,0 +1,32 @@
+* {
+   transition: all 1s;
+}
+h1 {
+   color: #03C;
+   border:groove
+}
+body {
+	background-color: #cccccc;
+	background-image:url(file:///E|/Hacktiv8/phase-0/week-1/syanmil.github.io/images/foto%20padag.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment:scroll;
+	font-family:georgia,garamond,serif;
+	font-weight:500;
+	
+}
+figure {
+	padding:!important
+}
+p {
+	border:double;
+}
+l1:hover {
+  font-size: 30px;
+  color:#FFC
+}
+#footer {
+   position: absolute;
+   left: 510px;
+   width: 200px;
+}
