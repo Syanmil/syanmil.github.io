@@ -21,8 +21,12 @@ figure {
 p {
 	border:double;
 }
-l1:hover {
+ul {
+	border:ridge
+}
+li:hover {
   font-size: 30px;
+  text-shadow:4px 4px 8px blue;
   color:#FFC
 }
 #footer {
