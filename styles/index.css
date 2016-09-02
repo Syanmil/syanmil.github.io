@@ -1,6 +1,25 @@
 * {
    transition: all 1s;
 }
+.puter {
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+.puter:hover {
+    animation: spin 5s linear infinite;
+}
+@keyframes puter {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.foto1 {
+  transform: rotate(15deg);
+  transform-origin: 0 0;
+}
 h1 {
    color: #03C;
    border:groove
