@@ -23,6 +23,44 @@ mohon bantuan dan bimbingannya!!</p>
     	<li> pemanfaatan teknologi yang lebih integratif untuk mengenal diri</li>
     	<br>
 	</ul>
+    <form>
+  <fieldset>
+    <legend>Hubungi Saya</legend>
+    <p>
+      <label for="nama lengkap">Nama Lengkap:</label>
+      <input name="nama lengkap" type="text">
+    </p>
+    <p>
+      <label for="email">Alamat E-mail:</label>
+      <input name="email" type="email">
+    </p>
+    <label for="gender">Jenis Kelamin:</label>
+    <input type="radio" name="gender" value="male">Laki-laki
+    <input type="radio" name="gender" value="female">Perempuan
+    <p>
+     <label for="keperluan">Keperluan:</label>
+     <input type="checkbox" name="teknik" value="konsul">Konsultasi
+     <input type="checkbox" name="teknik" value="pelatihan">Pelatihan
+     <input type="checkbox" name="teknik" value="terapi">Terapi
+      <input type="checkbox" name="teknik" value="kenali">Assessment
+    </p>
+    <p>
+    <label for="masalah">Masalah yang kini anda hadapi?</label>
+    <input type="text" name="masalah" list="kendala" />
+    <datalist id="kendala">
+      <label for="alternatif">Pilih salah satu</label>
+      <select id="alternatif" name="masalah umum">
+        <option value="jodoh">Hubungan</option>
+        <option value="uang">Bisnis</option>
+        <option value="karir">Pendidikan</option>
+        <option value="keluarga">Orang Tua/ Anak</option>
+      </select>
+    </datalist>
+  </p>
+    <input type="button" value="Submit">
+    
+  </fieldset>
+</form>
     
 	<blockquote><!--cari quote yg lebih nampol -->
   "We don’t have an endless stream of opportunities to do something that matters right now, presented with clear instructions, and finely tuned to our moment-by-moment capabilities. Without that kind of creative and logistical support, there’s no easy way to go after epic goals and successfully achieve them in our everyday lives."
