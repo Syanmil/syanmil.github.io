@@ -1,8 +1,8 @@
 * {
-   transition: all 1s;
+   transition: all 2s;
 }
 .foto1 {
-  transform: rotate(15deg);
+  transform: rotate(10deg) scale(1.2) skewX(-5deg)
 }
 h1 {
    color: #03C;
@@ -27,11 +27,56 @@ p {
 ul {
 	border:ridge
 }
+h3 {
+	background: #white;
+  border-radius: 2px;
+  transition-duration: .5s, 10s;
+  transition-timing-function: linear, ease-in;
+  transition-delay: 5s, 5s;
+}
+h3:hover {
+  background: #ff7b29; 
+}
 li:hover {
   font-size: 30px;
   text-shadow:4px 4px 8px blue;
   color:#FFC
 }
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+.stage {
+  border-radius: 6px;
+  height: 150px;
+  position: relative;
+  min-width: 538px;
+}
+.stage:hover .ball {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: .5s;
+}
+.ball {
+  background: yellow;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
 #footer {
    position: absolute;
    left: 510px;
