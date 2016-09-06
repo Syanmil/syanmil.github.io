@@ -1,6 +1,8 @@
 body {
 	background-color:#9FC;
 	border: 2px solid black;
+	padding:12px;
+	margin:10px 5px 20px 15px;
 }
 header {
 	font-family:Tahoma, Geneva, sans-serif;
@@ -17,7 +19,7 @@ span {
 	font-size:10px;
 	font-family:"Arial Black", Gadget, sans-serif;
 	color:lightblue;
-	transition-delay: 5s;
+	transition-duration: 5s;
 }
 
 #oleh:hover {
