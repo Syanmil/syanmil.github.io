@@ -1,0 +1,31 @@
+body {
+	padding-left:20%;
+	padding-right:20%;
+}
+div {
+	background-color:gray;
+	width:500px;
+	height:100px;
+	border-radius:15px;
+	margin: 0px 20px 15px 15px;
+	padding:20px;
+	text-align:center;
+	
+}
+img {
+	border:2px solid #666;
+	border-radius:10px;
+	padding:5px;
+	margin:2px;
+	width:90px;
+	height:90px;
+}
+.kiri {
+	float:left;
+}
+.kanan {
+	float:right;
+}
+h1 {
+	text-align:center;
+}
